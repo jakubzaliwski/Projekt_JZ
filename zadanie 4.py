@@ -1,13 +1,14 @@
 def fibonacci(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    else:
-        a, b = 0, 1
-        for _ in range(n - 1):
-            a, b = b, a + b
-        return b
-n = int(input("Podaj o którą liczbe Ci chodzi: "))
-wynik = fibonacci(n)
-print("Liczba Fibonacciego dla", n, "wynosi:", wynik)
+    lista = []
+    a, b = 0, 1
+    for _ in range(n):
+        lista.append(a)
+        a, b = b, a + b
+    return lista
+
+
+n = int(input("Podaj ilość liczb Fibonacciego:"))
+lista = fibonacci(n)
+for i in lista:
+    print(i)
+
