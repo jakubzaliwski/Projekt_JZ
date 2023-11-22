@@ -1,8 +1,4 @@
-
-
 import matplotlib.pyplot as mat
-
-
 def fibonacci(n):
     lista = []
     a, b = 0, 1
