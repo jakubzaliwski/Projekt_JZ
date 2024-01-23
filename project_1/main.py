@@ -8,6 +8,10 @@ import requests
 from io import StringIO
 
 
+# Poprawność zadań: 11/11
+# Dodatki: 1.5/2
+# Znormalizowane: 0,9615384615
+
 def ex_1():
     print("Zadanie 1: ")
     i = 0
